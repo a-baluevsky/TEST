@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<?xml-stylesheet type="text/xsl" href="section.xslt"?>
+<section>
+    <header>
+        <caption>Опытно-экспериментальная деятельность</caption>
+        <fields>
+            <field name="Координатор">Павловская Ирина Леонидовна</field>
+        </fields>
+    </header>
+    <ribbon>
+        <tab id="tbLinks" label="Ссылки" visible="true">
+            <group id="tbgDocs" label="Документы" visible="true">
+                <box id="box1" boxStyle="horizontal">
+	               	<link id="link1" label="Актуальное" href="docs/" title="Актуальные документы" />
+	               	<separator id="separator1"/>
+	               	<link id="link2" label="Скачать" href="http://yadi.sk/d/vyIIHiU6HPhCK" title="Полный архив" />
+                </box>                
+            </group>
+            <group id="tbgOEDDir" label="Направления ОЭД"
+                   link="direct/" linktitle="Перейти к материалу Направления ОЭД" visible="true"> 
+            </group>
+            <group id="tbgOEDRes" label="Результаты ОЭД" 
+                   link="result/" visible="true"> 
+            </group>
+            <group id="tbgOEDFiles" visible="true"
+                   link="files/"    label="Материалы" > 
+            </group>                       
+        </tab>
+    </ribbon>
+	<!-- use script to add iframe with variable src value -->
+	<contents defaultUrl="docs/" />	
+</section>

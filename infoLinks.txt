@@ -1,0 +1,21 @@
+
+Ribbon Designer (MFC)
+http://msdn.microsoft.com/ru-ru/library/ee354408.aspx
+
+Ribbon (WPF)
+http://msdn.microsoft.com/en-us/library/ff799534(v=vs.110).aspx
+
+http://msdn.microsoft.com/en-us/library/aa338202(office.12).aspx
+
+http://msdn.microsoft.com/en-us/library/aa338202(office.12).aspx#OfficeCustomizingRibbonUIforDevelopers_AddingDocumentBasedAddIns
+
+http://msdn.microsoft.com/en-us/library/aa338202(office.12).aspx#OfficeCustomizingRibbonUIforDevelopers_Customizing
+
+
+
+        <!--<tab id="tbNavigation" label="Навигация" visible="false">
+            std nav: Back, Home, Next -- >  
+           <!-- news, updated doc list (generated automatically) -- >
+           <!-- bread-crumb list -- >
+           <!-- bookmarks list           
+        </tab>  --> 

@@ -1,0 +1,49 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="Microsoft Visual Studio 6.0">
+<TITLE>Section nav hash test</TITLE>
+<SCRIPT ID=clientEventHandlersJS LANGUAGE=javascript>
+<!--
+
+var gs_ContentsUrl=""
+function chkPgHash() {
+	var re = /#(exp|clp|nav|view)PageUrl=(.+)/gi;
+	var m=re.exec(document.location.hash)
+	if(m) {
+		var viewMode = m[1];
+		gs_ContentsUrl = m[2];
+		//alert("Custom view mode:"+viewMode+"\nURL: "+gs_ContentsUrl);
+		switch(viewMode) {
+			case "exp": case "nav":
+				alert("Normal view: "+gs_ContentsUrl);
+				break;
+			case "clp": case "view":
+				alert("Collapsed view: "+gs_ContentsUrl);
+				break;
+		}
+	}
+}
+
+
+
+
+chkPgHash();
+
+function window_onload() {
+	alert("window_onload");
+}
+
+//-->
+</SCRIPT>
+</HEAD>
+<BODY LANGUAGE=javascript onload="return window_onload()">
+<P>Navigation options:</P>
+<ul>
+  <li><a href="navHash.htm">Normal default page</a></li>
+  <li><a href="navHash.htm#expPageUrl=customStartPage">Normal custom start page</a></li>
+  <li><a href="navHash.htm#clpPageUrl=customStartPage">Collapsed view with custom start page</a></li>
+</ul>
+
+
+</BODY>
+</HTML>

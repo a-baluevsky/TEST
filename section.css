@@ -1,0 +1,43 @@
+﻿BODY {
+	background-color: #99CCFF; left: 0; top: 0
+}
+
+td.SectionHeader {
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #3399CC;
+	margin: 4px; padding: 4px;
+}
+
+a.HeaderLink:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+a.HeaderLink:link {
+	color: #000090;
+	text-decoration: none;
+}
+a.HeaderLink:visited {
+	color: #000090;
+	text-decoration: none;
+}
+a.HeaderLink:active {
+	color: #000090;
+	text-decoration: none;
+}
+
+INPUT.ToggleHeader
+{
+/*    FONT-SIZE: 14pt;TEXT-DECORATION: overline;zoom: 2; */	
+    POSITION: relative;
+	FLOAT: right; CURSOR: hand;
+    LEFT: 0px; TOP: -25px;    
+    WIDTH: 40px;HEIGHT: 20px;
+	line-height:8px;
+}
+
+TABLE.tblView {	width:100%; height:100%; border:hidden 0; }
+TABLE.tblHeaderInnerContents { width:600px; border:hidden 0; }
+ 
+TD.tdHeaderVBorder { width: 8px; height: 50px; background-color: #4080BF; }
+TD.tdHeaderContents { background-color: #66CCFF; }
